@@ -7,7 +7,7 @@ for i in range(1, len(data)):
     if data[i] > data[i - 1]:
         p1 += 1
 
-print(p1)
+print("Part 1:", p1)
 
 curr = sum(data[:2])
 p2 = 0
@@ -19,4 +19,4 @@ for i in range(3, len(data)):
 
     curr = new
 
-print(p2)
+print("Part 2:", p2)

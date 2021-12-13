@@ -13,7 +13,7 @@ for i in data:
     elif direction == "up":
         depth -= int(magnitude)
 
-print(horiz_pos * depth)
+print("Part 1:", horiz_pos * depth)
 
 horiz_pos = 0
 depth = 0
@@ -29,4 +29,4 @@ for i in data:
     elif direction == "up":
         aim -= int(magnitude)
 
-print(horiz_pos * depth)
+print("Part 2:", horiz_pos * depth)
